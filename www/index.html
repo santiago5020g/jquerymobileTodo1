@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQM Complex Demo</title>
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/wheather.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.css" />
+    <script src="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/wheather.js"></script>
+</head>
+
+<body>
+    <div data-role="page" id="home">
+
+        <div data-role="header">
+            <div class="arrowContainer">
+                <img class="svgArrow" src="img/arrow.svg" alt="">
+            </div>
+            <div class="containerCircle">
+                <div class="circleWhite">
+                    <div class="circleBlue"></div>
+                </div>
+            </div>
+            <div class="containerTexCountry">
+                <div class="textCountry" id="textCountry">
+                    Getting gps..
+                </div>
+            </div>
+        </div>
+        <!-- /header -->
+
+        <div data-role="content" class="cont">
+            <div class="ui-grid-a">
+
+                <div class="ui-block-a">
+                    <div class="temperatureNumber" id="temperatureNumber">
+                        0°
+                    </div>
+                </div>
+
+                <div class="ui-block-b">
+
+                </div>
+            </div>
+            <!-- /grid-b -->
+            <!-- /grid-b -->
+
+            <div class="ui-grid-a">
+
+                <div class="ui-block-a">
+                    <P>HUMIDITY</P>
+                    <P id="humidityPercent">Getting gps..</P>
+                </div>
+
+                <div class="ui-block-b">
+                    <P id="iconName">RAIN</P>
+                    <P id="precipProbabilityPercent">Getting gps..</P>
+                </div>
+            </div>
+            <!-- /grid-a -->
+
+           <div class="sumaryContainer">
+                <!-- <P>Sumary</P> -->
+                <p id="sumaryText">Getting gps..</p>
+           </div>
+        </div>
+        <!-- /content -->
+
+    </div>
+    <!-- /page -->
+    </div>
+</body>
+
+</html>
