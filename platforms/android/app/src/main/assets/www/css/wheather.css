@@ -1,0 +1,83 @@
+
+.ui-page { 
+    background:#4A8DDC !important;
+}
+
+.cont{
+    padding: 0 0 0 24%;
+    color: #fff;
+}
+
+.arrowContainer{
+    text-align: center;
+    width: 2rem;
+    height: 2rem;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #9CC8F5;
+    position: relative;
+    left: 47%;
+    margin-top: 7%;
+}
+
+.svgArrow{
+    margin-top: 10%;
+}
+
+
+.circleWhite{
+    width: 2rem;
+    height: 2rem;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #FFF;
+    position: relative;
+}
+
+.circleBlue{
+    width: 64%;
+    height: 69%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #4A8DDC;
+    position: relative;
+    /* text-align: center; */
+    /* vertical-align: middle; */
+    top: 15%;
+    left: 19%;
+}
+
+
+.containerCircle{
+    text-align: center;
+    margin-left: 27%;
+    margin-top: 7%;
+    display: inline-block;
+}
+
+.containerTexCountry{
+    display: inline-block;
+    position: absolute;
+    top: 13.5%;
+    margin-left: 3%;
+}
+
+
+.textCountry{
+    color: #fff;
+}
+
+
+.temperatureNumber{
+    margin-top: 40%;
+    font-size: 5rem;
+    margin-bottom: 60%;
+}
+
+
+.sumaryContainer{
+    margin: 36% 0 0 23%;
+}
