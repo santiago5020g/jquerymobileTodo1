@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Apr 10 18:17:27 COT 2018
+#Tue Apr 10 18:29:57 COT 2018
 25.file=C\:\\xampp2\\htdocs\\todo1\\abc\\platforms\\android\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\drawable-land-xxhdpi-v4\\screen.png
 25.base=C\:\\xampp2\\htdocs\\todo1\\abc\\platforms\\android\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
 22.set=ANDROID_RESOURCE
